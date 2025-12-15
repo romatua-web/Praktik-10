@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pastikan style di bawah ini ditambahkan agar layout menempati lebar penuh */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block; /* Penting: Mengubah dari flex (bawaan vite) ke block */
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Reset text align */
+}
